@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treinando formulario</title>
+</head>
+<body>
+    <h1>Treinando formulario</h1>
+    <form action="#" method="get">
+        <p>
+            <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome" required placeholder="Nome" autocomplete="additional-name">
+        </p>
+
+        <p>
+            <label for="iemail">Email:</label>
+            <input type="email" name="email" id="iemail" placeholder="Email" required maxlength="200" autocomplete="email">
+        </p>
+        <p>
+            <label for="itel">Telefone:</label>
+            <input type="number" name="tel" id="itel" pattern="\(d{2}\)\d[0-9]{4}-[0-9]{4}$" placeholder="(xx)xxxx-xxxx" required autocomplete="tel" max="11">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Linpar">
+        </p>
+    </form>
+    
+</body>
+</html>
