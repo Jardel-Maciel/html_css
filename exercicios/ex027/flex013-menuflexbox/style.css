@@ -22,12 +22,12 @@ header{
     justify-content: space-between;
 }
 header > h1{
-    border: 1px dotted black;
+    /*border: 1px dotted black;*/
     flex: 0 0 200px;
 
 }
 header > nav{
-    border: 1px dotted black;
+   /*border: 1px dotted black;*/
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
@@ -40,6 +40,7 @@ header > nav >a{
     margin: 5px;
     border-radius: 5px;
     text-decoration: none;
+    text-align: center;
 
 }
 header > nav >a:hover{
@@ -55,3 +56,4 @@ main{
     box-shadow: 1px 5px 10px 4px rgba(0, 0, 0, 0.336);
     text-align: justify;
 }
+
